@@ -1,0 +1,56 @@
+/* style.css */
+
+/* Style de base pour la fenêtre */
+.root {
+    -fx-background-color: #2b2b2b;
+    -fx-padding: 20;
+    -fx-alignment: center;
+}
+
+/* Style des boutons */
+.button {
+    -fx-background-color: #5a67d8;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-background-radius: 10;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #4c51bf;
+}
+
+.button:pressed {
+    -fx-background-color: #3c366b;
+}
+
+/* Style des champs de texte */
+.text-field {
+    -fx-background-color: #3c3f41;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #a0aec0;
+    -fx-padding: 8 10;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: #5a67d8;
+    -fx-border-width: 1;
+}
+
+/* Style des étiquettes */
+.label {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 5 0;
+    -fx-font-weight: bold;
+}
+
+/* Style pour le message d'alerte */
+.alert {
+    -fx-background-color: #e53e3e;
+    -fx-text-fill: white;
+    -fx-padding: 10 20;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+}
